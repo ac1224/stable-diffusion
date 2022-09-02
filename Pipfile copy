@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "*"
+torchvision = "*"
+torchaudio = "*"
+transformers = "*"
+tensorflow = "*"
+diffusers = "*"
+torch = {version = "==1.12.1", file = "https://download.pytorch.org/whl/cu116/torch-1.12.1%2Bcu116-cp38-cp38-win_amd64.whl"}
+torchvision = {version = "==0.13.1", file = "https://download.pytorch.org/whl/cu116/torch-1.12.1%2Bcu116-cp38-cp38-win_amd64.whl"}
+torchaudio = {version = "==0.12.1", file = "https://download.pytorch.org/whl/cu116/torch-1.12.1%2Bcu116-cp38-cp38-win_amd64.whl"}
+
+torch = {file = "https://download.pytorch.org/whl/cu116/torch-1.12.1%2Bcu116-cp38-cp38-win_amd64.whl"}
+torchvision = {file = "https://download.pytorch.org/whl/cu116/torch-1.12.1%2Bcu116-cp38-cp38-win_amd64.whl"}
+torchaudio = {file = "https://download.pytorch.org/whl/cu116/torch-1.12.1%2Bcu116-cp38-cp38-win_amd64.whl"}
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.8"
